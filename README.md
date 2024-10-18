@@ -19,7 +19,7 @@ This project aims to predict the stability of stacked objects by analyzing image
 2. Open up Jupyter Notebook:
   * Please run the below command to start Jupyter Notebook:
     ```
-    Jupyter notebook
+    jupyter notebook
     ```
 3. Notebook Execution for training, validating, and testing model:
    
