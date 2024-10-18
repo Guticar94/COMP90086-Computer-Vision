@@ -5,7 +5,7 @@ This project aims to predict the stability of stacked objects by analyzing image
 ### Prerequisites
 
 - Operating System: Windows, macOS, or Linux
-- Python Version: 3.11 or higher
+- Python Version: 3.12 or higher
 - Conda: Install from [Anaconda](https://www.anaconda.com/).
 - Jupyter Notebook: Included with Anaconda or install separately.
 
