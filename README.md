@@ -21,9 +21,12 @@ This project aims to predict the stability of stacked objects by analyzing image
     ```
     Jupyter notebook
     ```
-3. Notebook Execution:
+3. Notebook Execution for training, validating, and testing model:
+   
+  * Open ```combineModels.ipynb``` to train, validate, and generate predictions files for Kaggle submission.
     
-  * Open ```combineModels.ipynb``` to train, validate, and generate predictions for Kaggle submission.
+4. Notebook Execution for visualising results:
+   
   * Use ```visualiseResult.ipynb``` to visualize the model performance based on the generated CSV files.
    
     
