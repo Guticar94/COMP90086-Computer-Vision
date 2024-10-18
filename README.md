@@ -28,6 +28,28 @@ This project aims to predict the stability of stacked objects by analyzing image
 4. Notebook Execution for visualising results:
    
   * Use ```visualiseResult.ipynb``` to visualize the model performance based on the generated CSV files.
-   
+
+### File Description
+
+```
+├── README.md                            # Project overview and instructions
+├── combineModels.ipynb                  # Notebook for combining model outputs and predictions
+├── visualiseResult.ipynb                # Notebook for visualizing model performance
+├── training_results/                    # Training results for each model
+│   ├── CNN_history.csv                  
+│   ├── EfficientNet_history.csv         
+│   ├── Inception_v3_history.csv         
+│   ├── inception_v4_ImageNet_history.csv
+│   ├── inception_v4_Resnet_v2_history.csv
+├── predictions/                         # Predictions from each model
+│   ├── predictions_CNN.csv              
+│   ├── predictions_EfficientNet.csv     
+│   ├── predictions_Inception_v3.csv     
+│   ├── predictions_Inception_v4_ImageNet.csv
+│   ├── predictions_Inception_v4_Resnet_v2.csv
+└── requirements.txt                     # Dependencies list
+
+
+```
     
   
