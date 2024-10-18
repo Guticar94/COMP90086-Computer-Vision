@@ -3,7 +3,7 @@ channels:
   - defaults
   - conda-forge
 dependencies:
-  - python=3.11 
+  - python=3.12
   - jupyter
   - numpy
   - pandas
@@ -13,14 +13,9 @@ dependencies:
   - pytorch
   - torchvision
   - tqdm
-  - opencv 
-  - pip 
-  - tensorflow  
-  - gdown  
-  - zipfile  
-  - collections 
-  - matplotlib
-  - random
+  - opencv
+  - pip
   - pip:
-      - timm
-      - opencv-python
+    - timm
+    - gdown
+    - tensorflow
