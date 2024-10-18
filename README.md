@@ -23,7 +23,7 @@ This project aims to predict the stability of stacked objects by analyzing image
     ```
 3. Notebook Execution for training, validating, and testing model:
    
-  * Open ```combineModels.ipynb``` to train, validate, and generate predictions files for Kaggle submission.
+  * Open ```trainModels.ipynb``` to train, validate, and generate predictions files for Kaggle submission.
     
 4. Notebook Execution for visualising results:
    
@@ -33,7 +33,7 @@ This project aims to predict the stability of stacked objects by analyzing image
 
 ```
 ├── README.md                            # Project overview and instructions
-├── combineModels.ipynb                  # Notebook for combining model outputs and predictions
+├── trainModels.ipynb                    # Notebook for all models outputs and predictions
 ├── visualiseResult.ipynb                # Notebook for visualizing model performance
 ├── training_results/                    # Training results for each model
 │   ├── CNN_history.csv                  
